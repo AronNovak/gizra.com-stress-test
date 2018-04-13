@@ -4,6 +4,6 @@ execution:
 
 scenarios:
   sample:
-    script: CircuitBid.scala
-    simulation: CircuitBid
+    script: GizraCom.scala
+    simulation: GizraCom
     keepalive: true

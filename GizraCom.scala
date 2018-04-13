@@ -17,7 +17,7 @@ class GizraCom extends Simulation {
 
   val scn = scenario("Gizra")
     .exec(http("request_0")
-      .get("/blog")
+      .get("/blog/")
       .check(css("#blog-page .content:first-of-type a", "href").saveAs("blogentry"))
     )
     .exec(http("request_1")
