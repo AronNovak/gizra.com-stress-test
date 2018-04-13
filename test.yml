@@ -1,0 +1,9 @@
+execution:
+- executor: gatling
+  scenario: sample
+
+scenarios:
+  sample:
+    script: CircuitBid.scala
+    simulation: CircuitBid
+    keepalive: true
